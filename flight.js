@@ -21,9 +21,9 @@ class EngineError extends Error {
 
 function takeOff() {
   if (Math.random() > 0.5) {
-    throw new TakeOffError('Cannot take off the flight');
+    throw new TakeOffError('Pesawat tidak bisa lepas landas.');
   }
-  console.log('Plane is taking off');
+  console.log('Pesawat lepas landas.');
 }
 
 function flight(latitude) {
